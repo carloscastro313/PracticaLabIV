@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { Persona } from '../../clases/Persona'
+import { Persona } from '../../clases/persona'
 import { from } from 'rxjs';
 
 @Component({
@@ -12,6 +12,8 @@ export class CargarPersonaComponent implements OnInit {
   nombre : string;
   apellido : string;
   edad : number;
+
+  
   constructor() { }
 
   ngOnInit(): void {

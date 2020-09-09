@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Persona } from 'src/app/clases/Persona';
+import { Persona } from '../../clases/persona';
 
 @Component({
   selector: 'app-persona',
@@ -10,6 +10,8 @@ export class PersonaComponent implements OnInit {
   titulo = 'Listado persona';
   listado = [];
 
+
+  
   constructor() { 
     console.log("constructor");
   }
